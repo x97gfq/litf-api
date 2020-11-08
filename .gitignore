@@ -338,3 +338,5 @@ node_modules/.bin/mime.cmd
 node_modules/.bin/mime
 README.md
 package-lock.json
+.deployment
+.gitignore
