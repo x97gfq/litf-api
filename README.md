@@ -1,8 +1,6 @@
-# Comp 2663 Light in the Forest
-
 # litf-api
+Light in the Forest - App
 
-# run api: npm start 
-...
+# run api 
+npm start 
 http://localhost:8081
-...
