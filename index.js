@@ -9,9 +9,19 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get('/api/characters', (req, res) => {
-  console.log('call to api/characters received');
-  var response = [{"id":1,"name":"bird"},{"id":1,"name":"wolf"},{"id":1,"name":"bear"}];
+app.get('/api/animals', (req, res) => {
+  console.log('call to api/animals received');
+  //this list should be stored in a database
+  var response = [
+    {"id":1,"name":"raven"},
+    {"id":2,"name":"wolf"},
+    {"id":3,"name":"deer"},
+    {"id":4,"name":"rabbit"},
+    {"id":5,"name":"owl"},
+    {"id":6,"name":"fox"},
+    {"id":7,"name":"bear"},
+    {"id":8,"name":"lynx"}
+  ];
   res.json(response);
 })
 
