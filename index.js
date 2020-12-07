@@ -20,7 +20,7 @@ app.get('/api/animals', (req, res) => {
     {"id":5,"name":"owl","eyes":"blinking_eyes_test.gif","image":"owl.jpg","sound":"owl.wav"},
     {"id":6,"name":"fox","eyes":"blinking_eyes_test.gif","image":"fox.jpg","sound":"fox.wav"},
     {"id":7,"name":"bear","eyes":"blinking_eyes_test.gif","image":"bear.jpg","sound":"bear.wav"},
-    {"id":8,"name":"lynx","eyes":"blinking_eyes_test.gif","image":"lync","sound":"lynx.wav"}
+    {"id":8,"name":"lynx","eyes":"blinking_eyes_test.gif","image":"lynx.jpg","sound":"lynx.wav"}
   ];
   res.json(response);
 })
